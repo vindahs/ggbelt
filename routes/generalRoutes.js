@@ -292,4 +292,12 @@ router.get('/206', function(req, res, next) {
 router.get('/207', function(req, res, next) {
     res.render('207', { title: 'Express' });
 });
+
+router.get('/89', function(req, res, next) {
+    res.render('89', { title: 'Express' });
+});
+
+router.get('/90', function(req, res, next) {
+    res.render('90', { title: 'Express' });
+});
 module.exports = router;
